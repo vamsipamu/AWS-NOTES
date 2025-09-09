@@ -1,0 +1,31 @@
+🧱 Core AWS Infrastructure Components
+Regions
+Geographically isolated areas where AWS services are hosted.
+Each Region contains multiple Availability Zones.
+Example: us-east-1 (N. Virginia), ap-south-1 (Mumbai).
+
+Availability Zones (AZs)
+Physically separate data centers within a Region.
+Designed for fault tolerance and high availability.
+You can deploy applications across AZs to ensure resilience.
+
+Edge Locations
+Part of Amazon CloudFront (CDN).
+Used to cache content closer to users for faster delivery.
+Ideal for low-latency access to static and dynamic content.
+
+Local Zones
+Extend AWS services to locations closer to end-users.
+Useful for latency-sensitive applications like gaming or video streaming.
+
+Wavelength Zones
+Embedded in telecom networks to support ultra-low latency 5G applications.
+Ideal for real-time machine learning, AR/VR, and IoT.
+
+AWS Outposts
+Brings AWS infrastructure and services to on-premises environments.
+Enables hybrid cloud setups with consistent APIs and tools.
+
+Regional Edge Caches
+Larger caches than Edge Locations.
+Improve performance by reducing the need to go back to the origin server.
