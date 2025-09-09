@@ -1,0 +1,49 @@
+cloud computing
+
+☁️ Cloud Deployment Models in AWS
+Public Cloud
+Definition: Services are offered over the internet by third-party providers like AWS.
+Characteristics:
+Shared infrastructure.
+Scalable and cost-effective.
+Ideal for startups and general-purpose workloads.
+AWS Example: EC2 instances running in public subnets.
+
+Private Cloud
+Definition: Cloud infrastructure is dedicated to a single organization.
+Characteristics:
+Greater control and security.
+Can be hosted on-premises or via AWS (e.g., using AWS Outposts).
+AWS Example: VPC with private subnets and restricted access.
+
+Hybrid Cloud
+Definition: Combines public and private clouds to allow data and applications to be shared between them.
+Characteristics:
+Flexibility to move workloads.
+Useful for disaster recovery, data residency, and gradual cloud migration.
+AWS Example: On-premises data center connected to AWS via VPN or AWS Direct Connect.
+
+Multi-Cloud
+Definition: Use of multiple cloud providers (e.g., AWS + Azure + GCP).
+Characteristics:
+Avoid vendor lock-in.
+Optimize services and pricing.
+AWS Context: Integrating AWS services with other cloud platforms using APIs or third-party tools.
+
+service models
+🌐 Cloud Service Models
+Infrastructure as a Service (IaaS)
+
+What it provides: Virtualized computing resources over the internet (e.g., servers, storage, networking).
+Examples: AWS EC2, Microsoft Azure VMs, Google Compute Engine.
+Users manage: Applications, data, runtime, middleware, OS.
+
+Platform as a Service (PaaS)
+What it provides: A platform allowing customers to develop, run, and manage applications without dealing with infrastructure.
+Examples: Google App Engine, AWS Elastic Beanstalk, Microsoft Azure App Services.
+Users manage: Applications and data.
+
+Software as a Service (SaaS)
+What it provides: Software applications delivered over the internet.
+Examples: Gmail, Microsoft 365, Salesforce.
+Users manage: Just the usage of the software.
